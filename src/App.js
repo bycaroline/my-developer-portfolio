@@ -6,6 +6,8 @@ import About from './components/About';
 import Skills from "./components/Skills";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
+import FamilyRecipes from "./components/FamilyRecipes";
+import PhotoPortfolio from "./components/PhotoPortfolio";
 
 function App() {
   return (
@@ -19,6 +21,8 @@ function App() {
         <Route path='/skills' element={<Skills />} />
         <Route path='/projects' element={<Projects />} />
         <Route path='/contact' element={<Contact />} />
+        <Route path='/familyrecipes' element={<FamilyRecipes />} />
+        <Route path='/photoportfolio' element={<PhotoPortfolio />} />
       </Routes>
 
     </div>
