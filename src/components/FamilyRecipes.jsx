@@ -16,7 +16,7 @@ function FamilyRecipes() {
         <div>
             <Navbar />
             <div className='bg-[#101927]'>
-                <div data-aos='fade-up' className='bg-[#101927] w-full md:w-[80%] top-40 md:top-0 flex m-auto h-screen items-center flex-col md:flex-row'>
+                <div data-aos='fade-up' className='bg-[#101927] w-full md:w-[80%] top-40 md:top-0 flex m-auto items-center flex-col md:flex-row'>
 
                     <div className='w-[100%] md:w-[50%] flex flex-col '>
                         <h2 className='px-8 pt-20 md:pt-20 md:py-0 md:px-0 font-bold tracking-widest text-[#8ef5fc]'>
