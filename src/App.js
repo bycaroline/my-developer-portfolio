@@ -8,6 +8,9 @@ import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 import FamilyRecipes from "./components/FamilyRecipes";
 import PhotoPortfolio from "./components/PhotoPortfolio";
+import SurfApp from "./components/SurfApp";
+import SurfGame from "./components/SurfGame";
+
 
 function App() {
   return (
@@ -21,6 +24,8 @@ function App() {
         <Route path='/skills' element={<Skills />} />
         <Route path='/projects' element={<Projects />} />
         <Route path='/contact' element={<Contact />} />
+        <Route path='/surfapp' element={<SurfApp />} />
+        <Route path='/surfgame' element={<SurfGame />} />
         <Route path='/familyrecipes' element={<FamilyRecipes />} />
         <Route path='/photoportfolio' element={<PhotoPortfolio />} />
       </Routes>

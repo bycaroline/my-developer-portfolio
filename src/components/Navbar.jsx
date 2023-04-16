@@ -124,10 +124,11 @@ function Navbar() {
                                 <li onClick={() => setNav(false)} className='py-4 text-sm'>Contact</li>
                             </Link>
                         </ul>
-                        <div className='pt-40'>
+                        <div className='pt-20'>
                             <p className='uppercase tracking-widest text-[#67bde2]'>Get in touch
                             </p>
                             <div className='flex items-center justify-between my-4 w-full sm:w-[80%]'>
+
                                 <div className='shadow-lg pr-2 '>
                                     <AiOutlineMail />
                                 </div>

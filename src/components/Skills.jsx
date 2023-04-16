@@ -98,10 +98,10 @@ function Skills() {
                         <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
                             <div className='grid  gap-4 justify-center items-center'>
                                 <div className='m-auto'>
-                                    <img src={require('../Assets/skills/f.png')} width='125' height='auto' alt='firebase' />
+                                    <img src={require('../Assets/skills/mong.png')} width='125' height='auto' alt='firebase' />
                                 </div>
                                 <div className='flex flex-col items-center justify-center' >
-                                    <h3>Firebase</h3>
+                                    <h3>MongoDB</h3>
                                 </div>
                             </div>
                         </div>

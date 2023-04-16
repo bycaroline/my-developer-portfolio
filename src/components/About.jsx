@@ -23,7 +23,7 @@ function About() {
                         <div className='w-[85%] md:w-[60%] h-auto m-auto'>
                             <p>My first encounter with web programming was year 2009 when I learned Flash, HTML and CSS. The years after I took a bachelor degree in economics and studied design. I have worked as a CEO-assistant, portrait painter, art teacher and photographer until I last year found my way back to programming.  </p>
                             <br />
-                            <p>Currently I am programming in React, using javascript, CSS/Tailwind and Firebase while learning new technologies such as Python and Flask. </p>
+                            <p>Currently I am programming in React, using javascript, CSS/Tailwind and Mongo DB while also learning new technologies. </p>
                         </div>
                     </div>
                 </div>
