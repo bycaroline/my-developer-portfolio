@@ -17,6 +17,19 @@ function FamilyRecipes() {
                 <div className='  md:w-[80%] top-40 md:top-0 flex m-auto items-center flex-col md:flex-row'>
 
                     <div className='w-[100%] md:w-[50%] flex flex-col '>
+                        <div className='flex w-[100%] '>
+                            <div className='w-[50%] flex items-center pt-10 hover:cursor-pointer mb-4'>
+                                <div className='pr-2 '>
+                                    <RxDoubleArrowLeft size='25' />
+                                </div>
+                                <div>
+                                    <Link to='/projects'>
+                                        <p className='text-lg py-2  p-text[#eaebf3]'>Back to projects</p>
+                                    </Link>
+                                </div>
+                            </div>
+                        </div>
+
                         <h2 className='px-8 pt-20 md:pt-40 md:py-0 md:px-0 font-bold tracking-widest text-[#8ef5fc]'>
                             Family Recipes</h2>
                         <p className='py-4 px-8 md:px-0 p-text[#eaebf3]'>Me and my family have some family recipes that we want to share amongst ourselves but keep within the family. That is why I built this app. It built so that anyone within the family can add a new recipe, read all recipes and delete recipes.
@@ -81,18 +94,7 @@ function FamilyRecipes() {
 
 
                         </div>
-                        <div className='flex w-[100%] items-center justify-center md:justify-start'>
-                            <div className='w-[50%] flex items-center pt-10 hover:cursor-pointer mb-4'>
-                                <div className='pr-2 '>
-                                    <RxDoubleArrowLeft size='25' />
-                                </div>
-                                <div>
-                                    <Link to='/projects'>
-                                        <p className='text-lg py-2  p-text[#eaebf3]'>Back to projects</p>
-                                    </Link>
-                                </div>
-                            </div>
-                        </div>
+
 
 
 
