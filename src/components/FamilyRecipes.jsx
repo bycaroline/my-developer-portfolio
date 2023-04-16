@@ -14,22 +14,19 @@ function FamilyRecipes() {
         <div className='bg-[#101927] h-screen w-full'>
             <Navbar />
             <div className='bg-[#101927] '>
-                <div className='  md:w-[80%] top-40 md:top-0 flex m-auto items-center flex-col md:flex-row'>
+                <div className='  md:w-[80%] top-40 md:top-0 flex m-auto items-center flex-col-reverse md:flex-row'>
 
                     <div className='w-[100%] md:w-[50%] flex flex-col '>
-                        <div className='flex w-[100%] '>
-                            <div className='w-[50%] flex items-center pt-10 hover:cursor-pointer mb-4'>
-                                <div className='pr-2 '>
-                                    <RxDoubleArrowLeft size='25' />
-                                </div>
-                                <div>
-                                    <Link to='/projects'>
-                                        <p className='text-lg py-2  p-text[#eaebf3]'>Back to projects</p>
-                                    </Link>
-                                </div>
-                            </div>
-                        </div>
+                        <h2 className='px-8 pt-20 md:pt-40 md:py-0 md:px-0 font-bold tracking-widest text-[#8ef5fc]'>
+                            Family Recipes</h2>
+                        <p className='py-4 px-8 md:px-0 p-text[#eaebf3]'>Me and my family have some family recipes that we want to share amongst ourselves but keep within the family. That is why I built this app. It built so that anyone within the family can add a new recipe, read all recipes and delete recipes.
+                        </p>
 
+                        <p className='py-4 px-8 md:px-0 p-text[#eaebf3]'>The application is built using React JS with Tailwind. Firebase and Firestore is for used for authentication and for storing data. I set the security rules in the database so that only users with certain User id´s can read and write recipes. Previously I have used MongoDB for storing data and it was interesting to learn how to use Firestore as well. </p>
+
+
+                        <p className='py-4 px-8 md:px-0 p-text[#eaebf3]'> I began building the app by roughly drafting how the app would work, then setting up the database and authentication. Lastly I created the the frontend-design using Figma and then applied the design in React with Tailwind.
+                            Use "test@test.com" and "password" to login to see the full page.   </p>
                         <div className='flex w-[100%] items-center justify-center md:justify-start'>
                             <div className='pt-10 '>
                                 <h3 className='pb-4'>Technologies</h3>
@@ -84,21 +81,18 @@ function FamilyRecipes() {
 
 
                         </div>
-
-
-
-
-                        <h2 className='px-8 pt-20 md:pt-40 md:py-0 md:px-0 font-bold tracking-widest text-[#8ef5fc]'>
-                            Family Recipes</h2>
-                        <p className='py-4 px-8 md:px-0 p-text[#eaebf3]'>Me and my family have some family recipes that we want to share amongst ourselves but keep within the family. That is why I built this app. It built so that anyone within the family can add a new recipe, read all recipes and delete recipes.
-                        </p>
-
-                        <p className='py-4 px-8 md:px-0 p-text[#eaebf3]'>The application is built using React JS with Tailwind. Firebase and Firestore is for used for authentication and for storing data. I set the security rules in the database so that only users with certain User id´s can read and write recipes. Previously I have used MongoDB for storing data and it was interesting to learn how to use Firestore as well. </p>
-
-
-                        <p className='py-4 px-8 md:px-0 p-text[#eaebf3]'> I began building the app by roughly drafting how the app would work, then setting up the database and authentication. Lastly I created the the frontend-design using Figma and then applied the design in React with Tailwind.
-                            Use "test@test.com" and "password" to login to see the full page.   </p>
-
+                        <div className='flex w-[100%] md:items-center justify-center md:justify-start'>
+                            <div className='w-[50%] flex items-center pt-10 hover:cursor-pointer mb-4'>
+                                <div className='pr-2 '>
+                                    <RxDoubleArrowLeft size='25' />
+                                </div>
+                                <div>
+                                    <Link to='/projects'>
+                                        <p className='text-lg py-2  p-text[#eaebf3]'>Back to projects</p>
+                                    </Link>
+                                </div>
+                            </div>
+                        </div>
 
 
 
