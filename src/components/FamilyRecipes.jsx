@@ -9,14 +9,12 @@ import React, { useEffect } from 'react'
 import Navbar from './Navbar';
 
 function FamilyRecipes() {
-    useEffect(() => {
-        Aos.init({ duration: 1200 });
-    }, [])
+
     return (
         <div className='bg-[#101927] h-screen w-full'>
             <Navbar />
             <div className='bg-[#101927] '>
-                <div data-aos='fade-up' className='  md:w-[80%] top-40 md:top-0 flex m-auto items-center flex-col md:flex-row'>
+                <div className='  md:w-[80%] top-40 md:top-0 flex m-auto items-center flex-col md:flex-row'>
 
                     <div className='w-[100%] md:w-[50%] flex flex-col '>
                         <h2 className='px-8 pt-20 md:pt-40 md:py-0 md:px-0 font-bold tracking-widest text-[#8ef5fc]'>
