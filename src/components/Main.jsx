@@ -14,12 +14,12 @@ function Main() {
     return (
         <div >
             <NavbarMain />
-            <div id='home' className='w-full h-screen bg-gradient-to-tl from-[#101927] to-[#101927] md:bg-none relative ' >
+            <div id='home' className='w-full h-screen bg-gradient-to-tl from-[#101927] to-[#101927] md:bg-none fixed md:relative ' >
                 <img src={require('../Assets/logo/backggg.jpg')} width='cover' alt='background' className='w-cover hidden md:block md:absolute md:mix-blend-overlay md:w-full md:h-full' />
                 <div className=' max-w-[700px] w-full h-screen mx-auto p-10 sm:p-0 flex justify-center items-center  '>
                     <div data-aos='fade-up' >
 
-                        <h1 className='mt-10 md:mt-0 md:py-4 text-[#eaebf3]'>
+                        <h1 className='mt-4 md:mt-0 md:py-4 text-[#eaebf3]'>
                             Hi I´m <span className='text-[#8ef5fc]'>Caroline,</span>
                         </h1>
                         <h1 className='py-2 text-[#eaebf3]'>
