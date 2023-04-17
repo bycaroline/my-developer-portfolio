@@ -14,13 +14,13 @@ function FamilyRecipes() {
         <div className=' h-screen w-full'>
             <Navbar />
             <div id='main' className=' '>
-                <div className='  md:w-[80%] top-40 md:top-0 flex m-auto'>
-                    <div className='w-[100%] md:w-[100%] bg-red-500 flex flex-col  md:flex-row items-center'>
+                <div className='  md:w-[80%] '>
+                    <div className='w-[100%]  bg-red-500 flex flex-col  md:flex-row items-center'>
                         <div className='w-[60%]'>
                             <div>
-                                <h2 className='px-8 pt-20 md:pt-40 md:py-0 md:px-0 font-bold tracking-widest text-[#8ef5fc]'>
+                                <h2 className=''>
                                     Family Recipes</h2>
-                                <p className='py-4 px-8 md:px-0 p-text[#eaebf3]'>Me and my family have some family recipes that we want to share amongst ourselves but keep within the family. That is why I built this app. It built so that anyone within the family can add a new recipe, read all recipes and delete recipes.
+                                <p className=''>Me and my family have some family recipes that we want to share amongst ourselves but keep within the family. That is why I built this app. It built so that anyone within the family can add a new recipe, read all recipes and delete recipes.
                                 </p>
 
                                 <p className='py-4 px-8 md:px-0 p-text[#eaebf3]'>The application is built using React JS with Tailwind. Firebase and Firestore is for used for authentication and for storing data. I set the security rules in the database so that only users with certain User id´s can read and write recipes. Previously I have used MongoDB for storing data and it was interesting to learn how to use Firestore as well. </p>
