@@ -32,55 +32,55 @@ function FamilyRecipes() {
 
                             <div>
                                 <h3 className='pb-4'>Technologies</h3>
-                                <div className='flex flex-row items-center'>
+                                <div className=''>
                                     <div className='pr-2'>
                                         <RiLoginCircleFill />
                                     </div>
                                     <div>
-                                        <p className='py-2 flex items-center p-text[#eaebf3]'>React JS</p>
+                                        <p className=''>React JS</p>
                                     </div>
                                 </div>
 
 
-                                <div className='flex flex-row items-center'>
+                                <div className=''>
                                     <div className='pr-2'>
                                         <RiLoginCircleFill />
                                     </div>
                                     <div>
-                                        <p className='py-2 flex items-center p-text[#eaebf3] '>Tailwind</p>
+                                        <p className=' '>Tailwind</p>
                                     </div>
                                 </div>
 
-                                <div className='flex flex-row items-center'>
+                                <div className=''>
                                     <div className='pr-2'>
                                         <RiLoginCircleFill />
                                     </div>
                                     <div>
-                                        <p className='py-2 flex items-center p-text[#eaebf3]'>Javascript</p>
+                                        <p className=''>Javascript</p>
                                     </div>
                                 </div>
 
-                                <div className='flex flex-row items-center'>
+                                <div className=''>
                                     <div className='pr-2'>
                                         <RiLoginCircleFill />
                                     </div>
                                     <div>
-                                        <p className='py-2 flex items-center p-text[#eaebf3]'>Firebase</p>
+                                        <p className=''>Firebase</p>
                                     </div>
                                 </div>
 
-                                <div className='flex flex-row items-center'>
+                                <div className=''>
                                     <div className='pr-2'>
                                         <RiLoginCircleFill />
                                     </div>
                                     <div>
-                                        <p className='py-2 flex items-center p-text[#eaebf3]'>Figma</p>
+                                        <p className=''>Figma</p>
                                     </div>
                                 </div>
                             </div>
                             <div>
 
-                                <div className='flex w-[100%] md:items-center justify-center md:justify-start'>
+                                <div className=''>
                                     <div className='w-[50%] flex items-center pt-10 hover:cursor-pointer mb-4'>
                                         <div className='pr-2 '>
                                             <RxDoubleArrowLeft size='25' />
@@ -102,7 +102,7 @@ function FamilyRecipes() {
                             </div>
                             <div>
 
-                                <div className='flex flex-row items-center hover:cursor-pointer mb-4 mt-4 md:mt-20 '>
+                                <div className=' '>
                                     <div className='w-[50%] flex items-center m-auto justify-center pl-10'>
                                         <div className='pr-2 '>
                                             <RxDoubleArrowRight size='30' />
@@ -114,7 +114,7 @@ function FamilyRecipes() {
                                         </div>
                                     </div>
 
-                                    <div className='w-[50%] flex items-center m-auto justify-center pr-10 md:pr-20'>
+                                    <div className=''>
                                         <div className='pr-2'>
                                             <RxDoubleArrowRight size='30' />
                                         </div>
