@@ -13,7 +13,7 @@ function FamilyRecipes() {
     return (
         <div className=' h-screen w-full'>
             <Navbar />
-            <div className=' '>
+            <div id='main' className=' '>
                 <div className='  md:w-[80%] top-40 md:top-0 flex m-auto'>
                     <div className='w-[100%] md:w-[100%] bg-red-500 flex flex-col  md:flex-row items-center'>
                         <div className='w-[60%]'>
