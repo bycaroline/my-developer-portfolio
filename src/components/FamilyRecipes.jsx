@@ -16,7 +16,7 @@ function FamilyRecipes() {
         <div className='bg-[#101927] h-screen w-full'>
             <Navbar />
             <div className='bg-[#101927] '>
-                <div data-aos='fade-up' className='md:w-[80%] top-40 md:top-0 flex m-auto items-center flex-col-reverse md:flex-row'>
+                <div data-aos='fade-up' className='md:w-[80%] top-40 md:top-0 flex m-auto items-center flex-col md:flex-row'>
 
                     <div className='w-[100%] md:w-[50%] flex flex-col '>
                         <h2 className='px-8 pt-20 md:pt-40 md:py-0 md:px-0 font-bold tracking-widest text-[#8ef5fc]'>
@@ -108,7 +108,7 @@ function FamilyRecipes() {
                     <div className='w-[100%] md:w-[50%] pt-10 px-4 md:px-20'>
                         <img src={require('../Assets/projects/FamilyRecipesImg.png')} alt='' />
 
-                        <div className='flex flex-row items-center hover:cursor-pointer mb-4 mt-4 md:mt-20 '>
+                        <div className='flex flex-row items-center hover:cursor-pointer mt-4 md:mt-20 mb-12 md:mb-1 '>
                             <div className='w-[50%] flex items-center m-auto justify-center pl-10'>
                                 <div className='pr-2 '>
                                     <RxDoubleArrowRight size='30' />
@@ -120,7 +120,7 @@ function FamilyRecipes() {
                                 </div>
                             </div>
 
-                            <div className='w-[50%] flex items-center m-auto justify-center pr-10 md:pr-20'>
+                            <div className='w-[50%] flex items-center m-auto justify-center pr-10 md:pr-20 '>
                                 <div className='pr-2'>
                                     <RxDoubleArrowRight size='30' />
                                 </div>
