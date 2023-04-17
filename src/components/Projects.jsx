@@ -23,7 +23,7 @@ function Projects() {
                     <p className='py-4 px-8 md:px-0 '>//Some of my recent projects</p>
                     <section className='grid md:grid-cols-2 gap-8'>
                         <ProjectItem
-                            title='Surf App'
+                            title='Surf Notification'
                             backgroundImg={iconSurfApp}
                             tech='Node.js, MongoDB'
                             projectURL='/SurfApp'

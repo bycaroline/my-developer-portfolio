@@ -22,7 +22,7 @@ function SurfApp() {
 
                         <div className='w-[100%] md:w-[50%] flex flex-col '>
                             <h2 className='px-8 pt-20 md:pt-36  md:py-0 md:px-0 font-bold tracking-widest text-[#8ef5fc]'>
-                                Surf App</h2>
+                                Surf Notification</h2>
                             <p className='py-4 px-8 md:px-0 p-text[#eaebf3]'>This surf app uses weather data from SMHI api
                                 (Swedish Meteorological and Hydrological Institute) and detects if good surf conditions might be
                                 expected at Knäbäckshusen in Sweden.
