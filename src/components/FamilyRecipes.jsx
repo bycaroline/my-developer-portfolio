@@ -15,18 +15,26 @@ function FamilyRecipes() {
             <Navbar />
             <div id='main' className=' '>
                 <div className='  md:w-[80%] '>
-                    <div className='w-[100%]  bg-red-500 flex flex-col  md:flex-row items-center'>
+                    <div className='w-[100%]  bg-blue-500 flex flex-col  md:flex-row items-center'>
                         <div className='w-[60%]'>
                             <div>
                                 <h2 className=''>
                                     Family Recipes</h2>
-                                <p className=''>Me and my family have some family recipes that we want to share amongst ourselves but keep within the family. That is why I built this app. It built so that anyone within the family can add a new recipe, read all recipes and delete recipes.
-                                </p>
+                                <p className=''>Me and my family have some family recipes that we want to share amongst ourselves
+                                    but keep within the family. That is why I built this app.
+                                    It built so that anyone within the family can add a new recipe, read all recipes and delete recipes.
+                                    <br />
+                                    The application is built using React JS with Tailwind. Firebase and Firestore is for used for
+                                    authentication
+                                    and for storing data. I set the security rules in the database so that only users with certain
+                                    User id can read and write recipes. Previously I have used MongoDB for storing data and it was
+                                    interesting to learn how to use Firestore as well.
+                                    <br />
 
-                                <p className='py-4 px-8 md:px-0 p-text[#eaebf3]'>The application is built using React JS with Tailwind. Firebase and Firestore is for used for authentication and for storing data. I set the security rules in the database so that only users with certain User id´s can read and write recipes. Previously I have used MongoDB for storing data and it was interesting to learn how to use Firestore as well. </p>
-
-
-                                <p className='py-4 px-8 md:px-0 p-text[#eaebf3]'> I began building the app by roughly drafting how the app would work, then setting up the database and authentication. Lastly I created the the frontend-design using Figma and then applied the design in React with Tailwind.
+                                    I began building the app by roughly drafting how the app would work,
+                                    then setting up the database and authentication. Lastly I created the
+                                    the frontend-design using Figma and then applied the design in React
+                                    with Tailwind.
                                     Use "test@test.com" and "password" to login to see the full page.   </p>
                             </div>
                         </div>
