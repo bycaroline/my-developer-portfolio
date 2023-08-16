@@ -62,8 +62,6 @@ function SurfGame() {
                                 </div>
                             </div>
 
-
-
                         </div>
                         <div className='flex w-[100%] items-center justify-center md:justify-start'>
                             <div className='w-[50%] flex items-center pt-10 hover:cursor-pointer'>
@@ -77,14 +75,7 @@ function SurfGame() {
                                 </div>
                             </div>
                         </div>
-
-
-
-
-
-
                     </div>
-
 
 
                     <div className='w-[100%] md:w-[50%] pt-10 md:mt-40 px-4 md:px-20'>

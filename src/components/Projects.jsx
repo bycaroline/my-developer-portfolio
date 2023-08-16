@@ -1,7 +1,7 @@
 
 import ProjectItem from './ProjectItem';
 import Navbar from './Navbar';
-import iconFamilyRecipes from '../Assets/projects/iconFamilyRecipes.jpg'
+import iconRecepies from '../Assets/projects/iconRecepies.png'
 import iconPhotoPortfolio from '../Assets/projects/iconPhotoPortfolio.jpg'
 import iconSurfApp from '../Assets/projects/iconSurfApp.jpg'
 import iconSurfGame from '../Assets/projects/surfgameIcon.jpg'
@@ -23,6 +23,13 @@ function Projects() {
                     <p className='py-4 px-8 md:px-0 '>//Some of my recent projects</p>
                     <section className='grid md:grid-cols-2 gap-8'>
                         <ProjectItem
+                            title='Family Recipes'
+                            backgroundImg={iconRecepies}
+                            tech='MERN, React, Node'
+                            projectURL='/FamilyRecipes'
+                        />
+
+                        <ProjectItem
                             title='Surf Notification'
                             backgroundImg={iconSurfApp}
                             tech='Node.js, MongoDB'
@@ -35,24 +42,12 @@ function Projects() {
                             tech='Javascript, CSS'
                             projectURL='/SurfGame'
                         />
-
-                        <ProjectItem
-                            title='Family Recipes'
-                            backgroundImg={iconFamilyRecipes}
-                            tech='React JS, Tailwind'
-                            projectURL='/FamilyRecipes'
-                        />
-
                         <ProjectItem
                             title='Photo Portfolio'
                             backgroundImg={iconPhotoPortfolio}
                             tech='React JS, CSS'
                             projectURL='/photoPortfolio'
                         />
-
-
-
-
 
                     </section>
                 </main>

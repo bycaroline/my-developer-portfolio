@@ -21,14 +21,13 @@ function FamilyRecipes() {
                     <div className='w-[100%] md:w-[50%] flex flex-col '>
                         <h2 className='px-8 pt-20 md:pt-40 md:py-0 md:px-0 font-bold tracking-widest text-[#8ef5fc]'>
                             Family Recipes</h2>
-                        <p className='py-4 px-8 md:px-0 p-text[#eaebf3]'>Me and my family have some family recipes that we want to share amongst ourselves but keep within the family. That is why I built this app. It built so that anyone within the family can add a new recipe, read all recipes and delete recipes.
+                        <p className='py-4 px-8 md:px-0 p-text[#eaebf3]'>Fullstack MERN crud application I built for my family to share our favorite recipes with each other.
                         </p>
 
-                        <p className='py-4 px-8 md:px-0 p-text[#eaebf3]'>The application is built using React JS with Tailwind. Firebase and Firestore is for used for authentication and for storing data. I set the security rules in the database so that only users with certain User id´s can read and write recipes. Previously I have used MongoDB for storing data and it was interesting to learn how to use Firestore as well. </p>
+                        <p className='py-4 px-8 md:px-0 p-text[#eaebf3]'>I started the project as part of a MERN course on UDEMY by Academind. I developed according to my wishes thereafter by adding features such as "search" for recipes, the possibility to upload images and store them on Cloudinary. I also made it possible to comment on recipes. For improving the way the recipes was displayed I created a landing page showing a few of the recipes, a profile page with recipes belonging to the creator and a page showing all the recipes with creator and ordered by date. The frontend was created in React and the design mapped out in Figma. </p>
 
 
-                        <p className='py-4 px-8 md:px-0 p-text[#eaebf3]'> I began building the app by roughly drafting how the app would work, then setting up the database and authentication. Lastly I created the the frontend-design using Figma and then applied the design in React with Tailwind.
-                            Use "test@test.com" and "password" to login to see the full page.   </p>
+                        <p className='py-4 px-8 md:px-0 p-text[#eaebf3]'> The application is deployed for free on Render and therefore it takes some time for it to load at first.  </p>
                         <div className='flex w-[100%] items-center justify-center md:justify-start'>
                             <div className='pt-10 '>
                                 <h3 className='pb-4'>Technologies</h3>
@@ -37,7 +36,7 @@ function FamilyRecipes() {
                                         <RiLoginCircleFill />
                                     </div>
                                     <div>
-                                        <p className='py-2 flex items-center p-text[#eaebf3]'>React JS</p>
+                                        <p className='py-2 flex items-center p-text[#eaebf3]'>MERN</p>
                                     </div>
                                 </div>
 
@@ -47,7 +46,25 @@ function FamilyRecipes() {
                                         <RiLoginCircleFill />
                                     </div>
                                     <div>
-                                        <p className='py-2 flex items-center p-text[#eaebf3] '>Tailwind</p>
+                                        <p className='py-2 flex items-center p-text[#eaebf3] '>Mongo DB</p>
+                                    </div>
+                                </div>
+
+                                <div className='flex flex-row items-center'>
+                                    <div className='pr-2'>
+                                        <RiLoginCircleFill />
+                                    </div>
+                                    <div>
+                                        <p className='py-2 flex items-center p-text[#eaebf3]'>React</p>
+                                    </div>
+                                </div>
+
+                                <div className='flex flex-row items-center'>
+                                    <div className='pr-2'>
+                                        <RiLoginCircleFill />
+                                    </div>
+                                    <div>
+                                        <p className='py-2 flex items-center p-text[#eaebf3]'>Node</p>
                                     </div>
                                 </div>
 
@@ -65,7 +82,7 @@ function FamilyRecipes() {
                                         <RiLoginCircleFill />
                                     </div>
                                     <div>
-                                        <p className='py-2 flex items-center p-text[#eaebf3]'>Firebase</p>
+                                        <p className='py-2 flex items-center p-text[#eaebf3]'>Cloudinary</p>
                                     </div>
                                 </div>
 
@@ -74,7 +91,7 @@ function FamilyRecipes() {
                                         <RiLoginCircleFill />
                                     </div>
                                     <div>
-                                        <p className='py-2 flex items-center p-text[#eaebf3]'>Figma</p>
+                                        <p className='py-2 flex items-center p-text[#eaebf3]'>HTML, CSS</p>
                                     </div>
                                 </div>
 
@@ -106,7 +123,7 @@ function FamilyRecipes() {
 
 
                     <div className='w-[100%] md:w-[50%] pt-10 px-4 md:px-20'>
-                        <img src={require('../Assets/projects/FamilyRecipesImg.png')} alt='' />
+                        <img src={require('../Assets/projects/RecepiesImg.png')} alt='' />
 
                         <div className='flex flex-row items-center hover:cursor-pointer mt-4 md:mt-20 mb-12 md:mb-1 '>
                             <div className='w-[50%] flex items-center m-auto justify-center pl-10'>
@@ -114,7 +131,7 @@ function FamilyRecipes() {
                                     <RxDoubleArrowRight size='30' />
                                 </div>
                                 <div>
-                                    <Link to='https://superlative-babka-d3eb77.netlify.app/' target="_blank" rel="noopener noreferrer">
+                                    <Link to='https://familyrecepies.onrender.com/' target="_blank" rel="noopener noreferrer">
                                         <p className=' text-base md:text-xl uppercase py-2  p-text[#eaebf3]'>demo</p>
                                     </Link>
                                 </div>
@@ -125,7 +142,7 @@ function FamilyRecipes() {
                                     <RxDoubleArrowRight size='30' />
                                 </div>
                                 <div>
-                                    <Link to='https://github.com/bycaroline/FamilyRecipesPublic' target="_blank" rel="noopener noreferrer">
+                                    <Link to='https://github.com/bycaroline/MERNappServerRecepies' target="_blank" rel="noopener noreferrer">
                                         <p className='text-base md:text-xl uppercase py-2  p-text[#eaebf3]'>code</p>
                                     </Link>
 

@@ -2,10 +2,6 @@
 import { Link } from 'react-router-dom'
 import React, { useState, useEffect } from 'react'
 import { AiOutlineClose, AiOutlineMenu, AiOutlineMail } from 'react-icons/ai'
-import { FaGithub } from 'react-icons/fa'
-
-
-
 
 function Navbar() {
 
@@ -14,35 +10,11 @@ function Navbar() {
     const [shadow, setShadow] = useState(false)
     const [navBg, setNavBg] = useState('#101927')
     const [linkColor, setLinkColor] = useState('#eaebf3')
-    // const router = useRouter()
 
-    // useEffect(() => {
-    //     if (
-    //         router.asPath === '/PhotoPortfolio' ||
-    //         router.asPath === '/Weather'
-    //     ) {
-    //         setNavBg('transparent')
-    //         setLinkColor('#eaebf3')
-    //     } else {
-    //         setNavBg('#101927')
-    //         setLinkColor('#eaebf3')
-    //     }
-    // }, [router])
 
     const handleNav = () => {
         setNav(!nav)
     }
-
-    // useEffect(() => {
-    //     const handleShadow = () => {
-    //         if (window.scrollY >= 90) {
-    //             setShadow(true)
-    //         } else {
-    //             setShadow(false)
-    //         }
-    //     };
-    //     window.addEventListener('scroll', handleShadow);
-    // }, [])
 
 
     return (
@@ -57,8 +29,6 @@ function Navbar() {
                         width='300'
                         height='auto' />
                 </Link>
-
-
 
                 <div>
                     <ul style={{ color: `${linkColor}` }} className='hidden md:flex pr-6'>

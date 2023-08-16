@@ -26,11 +26,6 @@ function ProjectItem({ title, backgroundImg, tech, projectURL }) {
 
                         </div>
                     </Link>
-
-
-
-
-
                 </div>
             </div>
         </div>

@@ -12,8 +12,6 @@ import SurfApp from "./components/SurfApp";
 import SurfGame from "./components/SurfGame";
 
 
-
-
 function App() {
   return (
     <div className="App">

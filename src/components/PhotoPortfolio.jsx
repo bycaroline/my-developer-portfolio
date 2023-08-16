@@ -81,15 +81,7 @@ function PhotoPortfolio() {
                                 </div>
                             </div>
                         </div>
-
-
-
-
-
-
                     </div>
-
-
 
                     <div className='w-[100%] md:w-[50%] pt-10 px-4 md:px-20 md:mt-40'>
                         <img src={require('../Assets/projects/PhotoPortfolioImg.png')} alt='' />
@@ -120,8 +112,6 @@ function PhotoPortfolio() {
                             </div>
                         </div>
                     </div>
-
-
 
                 </div>
             </div>

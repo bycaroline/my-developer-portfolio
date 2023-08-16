@@ -38,7 +38,7 @@ function SurfApp() {
 
                             <p className='py-4 px-8 md:px-0 p-text[#eaebf3]'>I started building this app by setting up by calling the SMHI api and setting up the conditions.
                                 After that I set up nodemailer and saving subscribed emails into MongoDB Atlas. Lastly I built the frontend
-                                using first Figma and then CSS. The app is hosted on a free service so please be patient for it to load.  </p>
+                                using first Figma and then CSS. The app is hosted on a free hosting service so please be patient for it to load.  </p>
 
 
                             <div className='flex w-[100%] items-center justify-center md:justify-start'>
@@ -156,8 +156,6 @@ function SurfApp() {
                                 </div>
                             </div>
                         </div>
-
-
 
                     </div>
 

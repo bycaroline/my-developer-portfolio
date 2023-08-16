@@ -2,14 +2,9 @@
 import { Link } from 'react-router-dom'
 import React, { useState, useEffect } from 'react'
 import { AiOutlineClose, AiOutlineMenu, AiOutlineMail } from 'react-icons/ai'
-import { FaGithub } from 'react-icons/fa'
-
-
 
 
 function NavbarMain() {
-
-
     const [nav, setNav] = useState(false)
     const [shadow, setShadow] = useState(false)
     const [navBg, setNavBg] = useState('#101927')
@@ -34,8 +29,6 @@ function NavbarMain() {
                         height='auto' />
                 </Link>
 
-
-
                 <div>
                     <ul style={{ color: `${linkColor}` }} className='hidden md:flex pr-6'>
                         <Link to='/'>
@@ -59,8 +52,6 @@ function NavbarMain() {
                     </div>
                 </div>
             </div>
-
-
 
             <div className={nav ? 'md:hidden fixed left-0 w-full h-screen bg-black/70' : ''}>
                 <div className={nav ? 'fixed left-0 top-0 w-[85%] sm:w-[60%] md:w-[45%] h-screen bg-[#1a283f] p-10 ease-in duration-500' :
