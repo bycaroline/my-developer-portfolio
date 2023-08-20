@@ -21,9 +21,9 @@ function About() {
                             <p className=' font-bold text-3xl'>Found my way back to programming</p>
                         </div>
                         <div className='w-[85%] md:w-[60%] h-auto m-auto'>
-                            <p>My first encounter with web programming was year 2009 when I learned Flash, HTML and CSS. The years after I took a bachelor degree in economics and studied design. I have worked as a CEO-assistant, portrait painter, art teacher and photographer until I last year found my way back to programming.  </p>
+                            <p>I have studied developer boot camps and have completed several projects during the last one and a half years. In 2007 I studied web development and Flash. Thereafter, I took a bachelors degree in Business and Economics and worked as a CEO Assistant, Art Teacher, and Photographer. </p>
                             <br />
-                            <p>Currently I am programming in React, using javascript, CSS/Tailwind and Mongo DB while also learning new technologies. </p>
+                            <p>Currently, I am working on a MERN project, learning Redux for React as well as the basics of Python and Java.</p>
                         </div>
                     </div>
                 </div>
