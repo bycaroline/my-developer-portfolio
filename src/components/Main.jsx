@@ -23,7 +23,7 @@ function Main() {
                             Hi I´m <span className='text-[#8ef5fc]'>Caroline,</span>
                         </h1>
                         <h1 className='py-2 text-[#eaebf3]'>
-                            a full stack web developer
+                            a web developer
                         </h1>
                         <p className='py-4 text-[#eaebf3] max-w-[80%] '>
                             I have found my way back to programming after some years studying economics and working with design and photography.
