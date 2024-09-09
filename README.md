@@ -8,7 +8,7 @@ This project showcases my work as a developer.
 
 ## Technologies
 - **Frontend**: HTML, JavaScript, React
-- **Tailwind**: for creating in line CSS
+- **Tailwind**: for creating in line design
 
 ## Licens
 Caroline Eklund holds the license. 
