@@ -1,7 +1,7 @@
 # My First Developer Portfolio
 
 ## Description
-This projects showcases my work as a developer.  
+This project showcases my work as a developer.  
 
 ## Features
 - **Listing projects**: A list of all the projects I have made  
